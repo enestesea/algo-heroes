@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SuitableForAttackUnitsFinderImpl implements SuitableForAttackUnitsFinder {
     /**
-     * Сложность: O(n * m). (n - количество строк, m - количество юнитов в строке)
+     * Сложность: O(n * m) (n - количество строк, m - количество юнитов в строке)
      */
     @Override
     public List<Unit> getSuitableUnits(List<List<Unit>> unitsByRow, boolean isLeftArmyTarget) {

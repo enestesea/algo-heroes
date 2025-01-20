@@ -11,7 +11,7 @@ public class GeneratePresetImpl implements GeneratePreset {
      * Сортировка: O(n log n)
      * Выбор юнитов и добавление в армию: O(n)
      * Назначение координат: O(n)
-     * Общая сложность алгоритма — O(n log n)
+     * Общая сложность алгоритма — O(n log n) (n — количество юнитов)
      **/
     @Override
     public Army generate(List<Unit> unitList, int maxPoints) {

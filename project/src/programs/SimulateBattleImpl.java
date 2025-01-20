@@ -13,7 +13,7 @@ public class SimulateBattleImpl implements SimulateBattle {
     private PrintBattleLog printBattleLog; // Позволяет логировать. Использовать после каждой атаки юнита
 
     /**
-     * Сложность: O(n * m). (n - количество юнитов в армии игрока, m - количество юнитов в армии компьютера)
+     * Сложность: O(n * m) (n - количество юнитов в армии игрока, m - количество юнитов в армии компьютера)
      */
     @Override
     public void simulate(Army playerArmy, Army computerArmy) throws InterruptedException {

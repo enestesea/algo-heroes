@@ -16,7 +16,7 @@ public class UnitTargetPathFinderImpl implements UnitTargetPathFinder {
      * Инициализация: O(n * m)
      * Поиск пути с использованием очереди с приоритетом: O((n * m) * log(n * m))
      * Восстановление пути: O(n * m)
-     * Общая сложность алгоритма: O(n * m * log(n * m)). (n - ширина, m - высота поля)
+     * Общая сложность алгоритма: O(n * m * log(n * m)) (n - ширина, m - высота поля)
      */
     @Override
     public List<Edge> getTargetPath(Unit attackUnit, Unit targetUnit, List<Unit> existingUnitList) {

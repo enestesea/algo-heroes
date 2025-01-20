@@ -1,1 +1,1 @@
-# alto-heroes
+# algo-heroes
